@@ -46,8 +46,11 @@ img{
 
 
 .footer{
+  text-align: center;
+  text-color: black;
+
   position : fixed;
-  background-color:blue;
+  background-color:white;
   left:0;
   bottom:0;
   width:100%;
