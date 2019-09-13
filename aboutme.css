@@ -1,1 +1,69 @@
-<link rel="stylesheet" type="text/css"  href="aboutme.css">
+
+* {
+  box-sizing : border-box;
+}
+body {background-color: beige;
+  padding:20px;
+  font-family:fantasy;
+
+}
+.main{
+  max-width: 1000px;
+  margin: auto;
+
+}
+h1{font-size: 50px;
+word-break: break-all;
+
+}
+
+img{
+  width:100%;
+  height:50%;
+}
+
+.row{
+  margin: 8px -16px;
+}
+
+.column{
+  float:left;
+  width:25%
+
+}
+
+.row:after {
+  content:"";
+  display:table;
+  clear:both;
+}
+
+.content{
+  background-color: beige;
+  padding:10px;
+
+}
+
+
+.footer{
+  position : fixed;
+  background-color:blue;
+  left:0;
+  bottom:0;
+  width:100%;
+
+}
+
+@media screen and(max-width:900px){
+  .column{
+    width: 50%;
+
+  }
+}
+
+@media screen and(max-width:600px){
+  .column{
+    width: 100%;
+
+  }
+}
